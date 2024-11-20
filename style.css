@@ -1,0 +1,31 @@
+:root {
+  --hlavni-barva: rgb(120, 40, 190);
+  --sekundarni-barva: lightblue;
+  --barva-pozadi: lightgrey;
+}
+.zivotopis {
+  background-color: var(--barva-pozadi);
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  color: var(--hlavni-barva);
+}
+img {
+  width: 25%;
+}
+#obor {
+  font-weight: 400;
+}
+table {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid;
+}
+th {
+  background-color: var(--sekundarni-barva);
+}
